@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+    
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/lo.jpeg" style="width:100%;height: 200px">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+    <a href="#menu" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>MENU</p>
+  
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-picture-o w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-comment w3-xxlarge"></i>
+    <p>CONTACT US</p>
+  </a>
+  
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#menu" class="w3-bar-item w3-button" style="width:25% !important">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">CONTACT US</a>
+    
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Desi </span>Urban Chai</h1><hr style="width:425px;margin-left: 450px;margin-top: 10px;margin-bottom: 50px" class="w3-opacity">
+    <p>VRS District One DSS-21 Sector 68, Mohali</p><hr style="width:275px;margin-left: 525px;margin-top: 20px;margin-bottom: 50px" class="w3-opacity">
+      
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About The Cafe</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hritika and Jarman are both young entrepreneurs who were looking to start a business together. They were inspired by the success of Desi Urban Chai and decided to open their own outlet in their hometown of Mohali. They were excited to bring the brand's signature flavors and ambiance to their community.</p>
+        <p>Desi Urban Chai is a well-known brand that has gained popularity for its unique blend of Indian and Western flavors in its tea offerings. The chain has a loyal following and has been expanding rapidly in recent years, with outlets in multiple cities across India</p>
+      
+      
+    <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">The Menu</h1>
+      <hr style="width:275px;margin-left: 320px;margin-top: -50px;margin-bottom: 50px" class="w3-opacity">
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <img src="images/men1.jpeg"style="width: 50%">
+        <img src="images/men2.jpeg"style="width: 50%">
+        <img src="images/men3.jpeg"style="width: 50%">
+        <img src="images/men4.jpeg"style="width: 50%">
+
+  </div>
+</div>
+      
+
+    <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="images/1%20(1).jpeg" style="width:100%">
+        <img src="images/1%20(2).jpeg" style="width:100%">
+        <img src="images/1%20(3).jpeg" style="width:100%">
+          <img src="images/1%20(7).jpeg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="images/1%20(4).jpeg" style="width:100%">
+        <img src="images/1%20(5).jpeg" style="width:100%">
+        <img src="images/1%20(6).jpeg" style="width:100%;height: 675px">
+       
+        
+      
+          <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey"style="margin-left: -650px">Contact Us</h2>
+    <hr style="width:200px;margin-left: -650PX" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"style="margin-left: -650px"></i> VRS Distict One DSS-21 Sector 68, Mohali</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"style="margin-left: -650px"></i> Phone: +91 8146340304</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"style="margin-left: -650px"> </i> Email: desiurbanchai68@mail.com</p>
+    </div><br>
+          
+ 
+</body>
+</html>
